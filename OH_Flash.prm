@@ -1,9 +1,9 @@
 PROMGEN: Xilinx Prom Generator P.20131013
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-promgen -w -p mcs -c FF -o Z:\Documents\PhD\Code\OptoHybrid\//Flash -s 8192 -u 0000 Z:/Documents/PhD/Code/OptoHybrid/optohybrid_top.bit -spi 
+promgen -w -p mcs -c FF -o Z:\Documents\PhD\Code\OptoHybrid\//OH_Flash -s 8192 -u 0000 Z:/Documents/PhD/Code/OptoHybrid/optohybrid_top.bit -spi 
 
-PROM \\psf\home\Documents\PhD\Code\OptoHybrid\Flash.prm map: Wed Dec 03 17:00:09 2014
+PROM \\psf\home\Documents\PhD\Code\OptoHybrid\OH_Flash.prm map: Fri Feb 13 09:25:52 2015
 
 Calculating PROM checksum with fill value ff
 

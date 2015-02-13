@@ -1,8 +1,13 @@
 Storage Target: SPI Flash Single FPGA
 64M
 FF
-Flash
+OH_Flash
 Z:\Documents\PhD\Code\OptoHybrid/
 
 MCS
+No
+/Code/WebDAQ
+
+MCS
+x8
 No

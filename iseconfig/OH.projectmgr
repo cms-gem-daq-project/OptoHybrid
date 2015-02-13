@@ -70,9 +70,9 @@
       <SelectedItems>
          <SelectedItem>user_package.vhd</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >31</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >30</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000319000000040101000100000000000000000000000064ffffffff000000810000000000000004000000aa0000000100000000000000d70000000100000000000000660000000100000000000001320000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000391000000040101000100000000000000000000000064ffffffff000000810000000000000004000000aa0000000100000000000000d70000000100000000000000660000000100000000000001aa0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>user_package.vhd</CurrentItem>
    </ItemView>
