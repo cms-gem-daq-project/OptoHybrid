@@ -1,0 +1,155 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design optohybrid_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to optohybrid_top.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus data<45 : 0> on block link_trigger is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus status[27 : 0] on block i2c_master is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus status_reg[27 : 0] on block vi2c_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_reg[24 : 0] on block vi2c_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_reg[31]_data_reg[31]_mux_49_OUT[24
+   : 0] on block vi2c_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_7[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_6[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_5[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_4[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_3[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_2[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_1[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_0[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus cnt[2]_data[7][191]_wide_mux_21_OUT[191
+   : 0] on block tracking_concentrator is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus track_data<191 : 0> on block
+   tracking_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus GND_125_o_GND_125_o_mux_567_OUT<110 : 5>
+   on block registers_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus request_read_i<3 : 1> on block
+   link_tracking is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gtp_clk_out<4 : 2> on block gtp_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_error<3 : 1> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_kchar<7 : 2> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_data<63 : 16> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus adc_voltage_value<29 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus adc_current_value<29 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus tx_kchar<7 : 2> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tx_data<63 : 16> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus request_write<31 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus request_tri<46 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus request_read<31 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file optohybrid_top.edif ...
+ngc2edif: Total memory usage is 106304 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tracking_bx_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to tracking_bx_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file tracking_bx_fifo.edif ...
+ngc2edif: Total memory usage is 75456 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tracking_data_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to tracking_data_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file tracking_data_fifo.edif ...
+ngc2edif: Total memory usage is 75392 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_vio.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 76480 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_ila.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila.edif ...
+ngc2edif: Total memory usage is 77504 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_icon.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon.edif ...
+ngc2edif: Total memory usage is 74944 kilobytes
+

@@ -42,13 +42,13 @@ begin
     vfat2_reset_src_o <= vfat2_reset_src;
     cdce_reset_src_o <= cdce_reset_src;
     
-    vfat2_clk_o <= vfat2_clk_fpga_i when (vfat2_src_select_i = '0' and vfat2_reset_src = '0') else
+    vfat2_clk_o <= vfat2_clk_fpga_i when (vfat2_src_select_i = '1' and vfat2_reset_src = '1') else
                    vfat2_clk_ext_i when (vfat2_src_select_i = '1' and vfat2_reset_src = '0') else
-                   vfat2_clk_fpga_i;
+                   vfat2_clk_ext_i;
     
-    cdce_clk_o <= vfat2_clk_fpga_i when (cdce_src_select_i = "00" and cdce_reset_src = '0') else 
+    cdce_clk_o <= vfat2_clk_fpga_i when (cdce_src_select_i = "11" and cdce_reset_src = '0') else 
                   vfat2_clk_ext_i when (cdce_src_select_i = "01" and cdce_reset_src = '0') else 
-                  vfat2_clk_fpga_i;
+                  vfat2_clk_ext_i;
                   
     --================================--
     -- VFAT2 fallback logic

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Feb 19 09:36:57 2015
+# Process ID: 3560
+# Log file: Z:/Documents/PhD/Code/OptoHybrid/planAhead_run_1/planAhead.log
+# Journal file: Z:/Documents/PhD/Code/OptoHybrid/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Z:/Documents/PhD/Code/OptoHybrid/pa.fromNetlist.tcl

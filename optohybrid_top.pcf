@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Dec 03 16:47:52 2014
+// Written by: Map P.20131013 on Tue Apr 21 12:08:03 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -164,9 +164,9 @@ PIN
         PINNAME CLKAWRCLK;
 TIMEGRP vfat2_clk_ext = BEL "vfat2_buf_clk_inst" BEL
         "clock_control_inst/vfat2_count_0" BEL
+        "clock_control_inst/vfat2_count_3" BEL
         "clock_control_inst/vfat2_count_1" BEL
         "clock_control_inst/vfat2_count_2" BEL
-        "clock_control_inst/vfat2_count_3" BEL
         "clock_control_inst/vfat2_count_6" BEL
         "clock_control_inst/vfat2_count_4" BEL
         "clock_control_inst/vfat2_count_5" BEL "clock_control_inst/last_vfat2"
@@ -21170,25 +21170,25 @@ TIMEGRP fpga_clk = BEL "gtp_wrapper_inst/gtp_link_reset_inst/counter_0" BEL
         "gtp_wrapper_inst/gtp_link_reset_inst/counter_9" BEL
         "gtp_wrapper_inst/gtp_link_reset_inst/state_0" BEL
         "gtp_wrapper_inst/gtp_link_reset_inst/reset_o" BEL
-        "clock_control_inst/vfat2_count_0" BEL
-        "clock_control_inst/vfat2_count_1" BEL
-        "clock_control_inst/vfat2_count_2" BEL
-        "clock_control_inst/vfat2_count_3" BEL
-        "clock_control_inst/vfat2_count_6" BEL
-        "clock_control_inst/vfat2_count_4" BEL
-        "clock_control_inst/vfat2_count_5" BEL
         "clock_control_inst/cdce_count_0" BEL
+        "clock_control_inst/cdce_count_3" BEL
         "clock_control_inst/cdce_count_1" BEL
         "clock_control_inst/cdce_count_2" BEL
-        "clock_control_inst/cdce_count_5" BEL
-        "clock_control_inst/cdce_count_3" BEL
-        "clock_control_inst/cdce_count_4" BEL
-        "clock_control_inst/cdce_count_8" BEL
         "clock_control_inst/cdce_count_6" BEL
-        "clock_control_inst/cdce_count_7" BEL
-        "clock_control_inst/cdce_count_11" BEL
+        "clock_control_inst/cdce_count_4" BEL
+        "clock_control_inst/cdce_count_5" BEL
         "clock_control_inst/cdce_count_9" BEL
-        "clock_control_inst/cdce_count_10" BEL "clock_control_inst/last_vfat2"
+        "clock_control_inst/cdce_count_7" BEL
+        "clock_control_inst/cdce_count_8" BEL
+        "clock_control_inst/vfat2_count_0" BEL
+        "clock_control_inst/cdce_count_10" BEL
+        "clock_control_inst/cdce_count_11" BEL
+        "clock_control_inst/vfat2_count_3" BEL
+        "clock_control_inst/vfat2_count_1" BEL
+        "clock_control_inst/vfat2_count_2" BEL
+        "clock_control_inst/vfat2_count_6" BEL
+        "clock_control_inst/vfat2_count_4" BEL
+        "clock_control_inst/vfat2_count_5" BEL "clock_control_inst/last_vfat2"
         BEL "clock_control_inst/cdce_reset_src" BEL
         "clock_control_inst/vfat2_reset_src" PIN
         "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1>" PIN

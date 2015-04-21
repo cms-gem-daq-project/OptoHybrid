@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: optohybrid_top.prj
@@ -108,124 +108,124 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\fpga_clk_pll.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\fpga_clk_pll.vhd" into library work
 Parsing entity <fpga_clk_pll>.
 Parsing architecture <xilinx> of entity <fpga_clk_pll>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\chipscope_icon.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\chipscope_icon.vhd" into library work
 Parsing entity <chipscope_icon>.
 Parsing architecture <chipscope_icon_a> of entity <chipscope_icon>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\chipscope_vio.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\chipscope_vio.vhd" into library work
 Parsing entity <chipscope_vio>.
 Parsing architecture <chipscope_vio_a> of entity <chipscope_vio>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\chipscope_ila.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\chipscope_ila.vhd" into library work
 Parsing entity <chipscope_ila>.
 Parsing architecture <chipscope_ila_a> of entity <chipscope_ila>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_clk_pll.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_clk_pll.vhd" into library work
 Parsing entity <gtp_clk_pll>.
 Parsing architecture <xilinx> of entity <gtp_clk_pll>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\tracking_data_fifo.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\tracking_data_fifo.vhd" into library work
 Parsing entity <tracking_data_fifo>.
 Parsing architecture <tracking_data_fifo_a> of entity <tracking_data_fifo>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\tracking_bx_fifo.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\tracking_bx_fifo.vhd" into library work
 Parsing entity <tracking_bx_fifo>.
 Parsing architecture <tracking_bx_fifo_a> of entity <tracking_bx_fifo>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_data.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_data.vhd" into library work
 Parsing entity <i2c_data>.
 Parsing architecture <behave> of entity <i2c_data>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_ctrl.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_ctrl.vhd" into library work
 Parsing entity <i2c_ctrl>.
 Parsing architecture <behave> of entity <i2c_ctrl>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\user_package.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\user_package.vhd" into library work
 Parsing package <user_package>.
 Parsing package body <user_package>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_master.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_master.vhd" into library work
 Parsing entity <i2c_master>.
 Parsing architecture <hierarchy> of entity <i2c_master>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\vi2c_wrapper.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\vi2c_wrapper.vhd" into library work
 Parsing entity <vi2c_wrapper>.
 Parsing architecture <Behavioral> of entity <vi2c_wrapper>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_readout.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_readout.vhd" into library work
 Parsing entity <tracking_readout>.
 Parsing architecture <Behavioral> of entity <tracking_readout>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_decoder.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_decoder.vhd" into library work
 Parsing entity <tracking_decoder>.
 Parsing architecture <Behavioral> of entity <tracking_decoder>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_concentrator.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_concentrator.vhd" into library work
 Parsing entity <tracking_concentrator>.
 Parsing architecture <Behavioral> of entity <tracking_concentrator>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" into library work
 Parsing entity <gtp_tile>.
 Parsing architecture <RTL> of entity <gtp_tile>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\vi2c_core.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\vi2c_core.vhd" into library work
 Parsing entity <vi2c_core>.
 Parsing architecture <Behavioral> of entity <vi2c_core>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\uart_rx.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\uart_rx.vhd" into library work
 Parsing entity <uart_rx>.
 Parsing architecture <Behavioral> of entity <uart_rx>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd" into library work
 Parsing entity <tracking_core>.
 Parsing architecture <Behavioral> of entity <tracking_core>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_encoder.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_encoder.vhd" into library work
 Parsing entity <t1_encoder>.
 Parsing architecture <Behavioral> of entity <t1_encoder>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\registers_core.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\registers_core.vhd" into library work
 Parsing entity <registers_core>.
 Parsing architecture <rtl> of entity <registers_core>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_tx_mux.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_tx_mux.vhd" into library work
 Parsing entity <gtp_tx_mux>.
 Parsing architecture <Behavioral> of entity <gtp_tx_mux>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_rx_mux.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_rx_mux.vhd" into library work
 Parsing entity <gtp_rx_mux>.
 Parsing architecture <Behavioral> of entity <gtp_rx_mux>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_link_reset.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_link_reset.vhd" into library work
 Parsing entity <gtp_link_reset>.
 Parsing architecture <Behavioral> of entity <gtp_link_reset>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\counter.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\counter.vhd" into library work
 Parsing entity <counter>.
 Parsing architecture <Behavioral> of entity <counter>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\clock_bridge_strobes.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\clock_bridge_strobes.vhd" into library work
 Parsing entity <clock_bridge_strobes>.
 Parsing architecture <behavioral> of entity <clock_bridge_strobes>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\adc_switch.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\adc_switch.vhd" into library work
 Parsing entity <adc_switch>.
 Parsing architecture <Behavioral> of entity <adc_switch>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp.vhd" into library work
 Parsing entity <gtp>.
 Parsing architecture <RTL> of entity <gtp>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\trigger_sbits.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\trigger_sbits.vhd" into library work
 Parsing entity <trigger_sbits>.
 Parsing architecture <Behavioral> of entity <trigger_sbits>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\trigger_handler.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\trigger_handler.vhd" into library work
 Parsing entity <trigger_handler>.
 Parsing architecture <Behavioral> of entity <trigger_handler>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_handler.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_handler.vhd" into library work
 Parsing entity <t1_handler>.
 Parsing architecture <Behavioral> of entity <t1_handler>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_delayed.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_delayed.vhd" into library work
 Parsing entity <t1_delayed>.
 Parsing architecture <Behavioral> of entity <t1_delayed>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\registers.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\registers.vhd" into library work
 Parsing entity <reg>.
 Parsing architecture <Behavioral> of entity <reg>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\monostable.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\monostable.vhd" into library work
 Parsing entity <monostable>.
 Parsing architecture <Behavioral> of entity <monostable>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_trigger.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_trigger.vhd" into library work
 Parsing entity <link_trigger>.
 Parsing architecture <Behavioral> of entity <link_trigger>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" into library work
 Parsing entity <link_tracking>.
 Parsing architecture <Behavioral> of entity <link_tracking>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" into library work
 Parsing entity <gtp_wrapper>.
 Parsing architecture <Behavioral> of entity <gtp_wrapper>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\clock_control.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\clock_control.vhd" into library work
 Parsing entity <clock_control>.
 Parsing architecture <Behavioral> of entity <clock_control>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\adc_handler.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\adc_handler.vhd" into library work
 Parsing entity <adc_handler>.
 Parsing architecture <Behavioral> of entity <adc_handler>.
-Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" into library work
+Parsing VHDL file "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" into library work
 Parsing entity <optohybrid_top>.
 Parsing architecture <Behavioral> of entity <optohybrid_top>.
 
@@ -234,8 +234,8 @@ Parsing architecture <Behavioral> of entity <optohybrid_top>.
 =========================================================================
 
 Elaborating entity <optohybrid_top> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 204: Using initial value "0000000000000000" for cs_async_in since it is never assigned
-WARNING:HDLCompiler:871 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 206: Using initial value "0000000000000000" for cs_sync_in since it is never assigned
+WARNING:HDLCompiler:871 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 204: Using initial value "0000000000000000" for cs_async_in since it is never assigned
+WARNING:HDLCompiler:871 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 206: Using initial value "0000000000000000" for cs_sync_in since it is never assigned
 
 Elaborating entity <monostable> (architecture <Behavioral>) from library <work>.
 
@@ -250,17 +250,17 @@ Elaborating entity <gtp_link_reset> (architecture <Behavioral>) from library <wo
 Elaborating entity <gtp_clk_pll> (architecture <xilinx>) from library <work>.
 
 Elaborating entity <gtp> (architecture <RTL>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp.vhd" Line 341: Assignment to tied_to_ground_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp.vhd" Line 343: Assignment to tied_to_vcc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp.vhd" Line 341: Assignment to tied_to_ground_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp.vhd" Line 343: Assignment to tied_to_vcc_i ignored, since the identifier is never used
 
 Elaborating entity <gtp_tile> (architecture <RTL>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 205: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 547: Assignment to rxcharisk0_float_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 549: Assignment to rxcharisk1_float_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 553: Assignment to rxdisperr0_float_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 555: Assignment to rxdisperr1_float_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 557: Assignment to rxnotintable0_float_i ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd" Line 559: Assignment to rxnotintable1_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 205: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 547: Assignment to rxcharisk0_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 549: Assignment to rxcharisk1_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 553: Assignment to rxdisperr0_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 555: Assignment to rxdisperr1_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 557: Assignment to rxnotintable0_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd" Line 559: Assignment to rxnotintable1_float_i ignored, since the identifier is never used
 
 Elaborating entity <link_tracking> (architecture <Behavioral>) from library <work>.
 
@@ -291,10 +291,10 @@ Elaborating entity <tracking_data_fifo> (architecture <tracking_data_fifo_a>) fr
 Elaborating entity <tracking_readout> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <registers_core> (architecture <rtl>) from library <work>.
-WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" Line 209: Assignment to request_write ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" Line 209: Assignment to request_write ignored, since the identifier is never used
 
 Elaborating entity <counter> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" Line 91: Net <request_read[63][31]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" Line 91: Net <request_read[63][31]> does not have a driver.
 
 Elaborating entity <link_trigger> (architecture <Behavioral>) from library <work>.
 
@@ -323,18 +323,18 @@ Elaborating entity <chipscope_icon> (architecture <chipscope_icon_a>) from libra
 Elaborating entity <chipscope_vio> (architecture <chipscope_vio_a>) from library <work>.
 
 Elaborating entity <chipscope_ila> (architecture <chipscope_ila_a>) from library <work>.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 106: Net <vfat2_sda_o[5]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 107: Net <vfat2_sda_t[5]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 137: Net <tx_kchar[5]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 138: Net <tx_data[47]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" Line 144: Net <request_read[63][31]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 106: Net <vfat2_sda_o[5]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 107: Net <vfat2_sda_t[5]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 137: Net <tx_kchar[5]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 138: Net <tx_data[47]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" Line 144: Net <request_read[63][31]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <optohybrid_top>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd".
 WARNING:Xst:647 - Input <vfat2_dvalid_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <vfat2_dvalid_i<5:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <vfat2_data_0_i<8:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -355,64 +355,64 @@ WARNING:Xst:647 - Input <vfat2_data_22_i<8:8>> is never used. This port will be 
 WARNING:Xst:647 - Input <vfat2_data_23_i<8:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <cdce_miso_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <cdce_auxout_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<63>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<62>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<61>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<60>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<59>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<58>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<57>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<56>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<55>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<54>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<53>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<52>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<51>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<50>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<49>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<48>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<47>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<46>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<45>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<44>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<43>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<42>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<41>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<40>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<39>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<38>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<37>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<36>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<35>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<34>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<33>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<32>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<31>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<30>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<29>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<28>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<27>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<26>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<25>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<24>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<23>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<22>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<21>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<20>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<19>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<18>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<17>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<16>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<15>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<10>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<9>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<8>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<7>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<3>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<2>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<1>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 327: Output port <request_write_o<0>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\optohybrid_top.vhd" line 635: Output port <ASYNC_OUT> of the instance <chipscope_vio_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<63>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<62>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<61>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<60>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<59>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<58>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<57>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<56>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<55>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<54>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<53>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<52>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<51>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<50>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<49>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<48>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<47>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<46>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<45>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<44>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<43>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<42>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<41>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<40>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<39>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<38>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<37>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<36>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<35>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<34>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<33>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<32>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<31>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<30>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<29>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<28>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<27>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<26>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<25>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<24>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<23>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<22>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<21>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<20>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<19>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<18>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<17>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<16>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<15>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<10>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<9>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<8>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<7>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<3>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<2>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<1>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 327: Output port <request_write_o<0>> of the instance <link_tracking_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\optohybrid_top.vhd" line 635: Output port <ASYNC_OUT> of the instance <chipscope_vio_inst> is unconnected or connected to loadless signal.
 WARNING:Xst:2935 - Signal 'vfat2_sda_o<5:4>', unconnected in block 'optohybrid_top', is tied to its initial value (00).
 WARNING:Xst:2935 - Signal 'vfat2_sda_o<1:0>', unconnected in block 'optohybrid_top', is tied to its initial value (00).
 WARNING:Xst:2935 - Signal 'vfat2_sda_t<5:4>', unconnected in block 'optohybrid_top', is tied to its initial value (00).
@@ -456,7 +456,7 @@ WARNING:Xst:2935 - Signal 'request_read<0>', unconnected in block 'optohybrid_to
 Unit <optohybrid_top> synthesized.
 
 Synthesizing Unit <monostable>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\monostable.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\monostable.vhd".
     Found 1-bit register for signal <last>.
     Found 1-bit register for signal <en_o>.
     Summary:
@@ -464,13 +464,13 @@ Synthesizing Unit <monostable>.
 Unit <monostable> synthesized.
 
 Synthesizing Unit <fpga_clk_pll>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\fpga_clk_pll.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\fpga_clk_pll.vhd".
     Summary:
 	no macro.
 Unit <fpga_clk_pll> synthesized.
 
 Synthesizing Unit <clock_control>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\clock_control.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\clock_control.vhd".
 WARNING:Xst:647 - Input <fpga_pll_locked_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 7-bit register for signal <vfat2_count>.
     Found 1-bit register for signal <last_vfat2>.
@@ -482,39 +482,39 @@ WARNING:Xst:647 - Input <fpga_pll_locked_i> is never used. This port will be pre
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  22 D-type flip-flop(s).
-	inferred   8 Multiplexer(s).
+	inferred   6 Multiplexer(s).
 Unit <clock_control> synthesized.
 
 Synthesizing Unit <gtp_wrapper>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd".
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 115: Output port <locked_o> of the instance <gtp_clk_pll_tile_0_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 126: Output port <locked_o> of the instance <gtp_clk_pll_tile_1_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXLOSSOFSYNC0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXLOSSOFSYNC1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_GTPCLKOUT0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXLOSSOFSYNC0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXLOSSOFSYNC1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_GTPCLKOUT1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RESETDONE0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RESETDONE1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXBYTEISALIGNED0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXBYTEISALIGNED1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXRECCLK0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXRECCLK1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_PLLLKDET0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_PLLLKDET1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RESETDONE0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RESETDONE1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXBYTEISALIGNED0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXBYTEISALIGNED1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXRECCLK0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXRECCLK1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd".
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 115: Output port <locked_o> of the instance <gtp_clk_pll_tile_0_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 126: Output port <locked_o> of the instance <gtp_clk_pll_tile_1_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXLOSSOFSYNC0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXLOSSOFSYNC1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_GTPCLKOUT0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXLOSSOFSYNC0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXLOSSOFSYNC1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_GTPCLKOUT1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RESETDONE0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RESETDONE1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXBYTEISALIGNED0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXBYTEISALIGNED1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXRECCLK0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE0_RXRECCLK1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_PLLLKDET0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_PLLLKDET1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RESETDONE0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RESETDONE1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXBYTEISALIGNED0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXBYTEISALIGNED1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXRECCLK0_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_wrapper.vhd" line 141: Output port <TILE1_RXRECCLK1_OUT> of the instance <gtp_inst> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <gtp_wrapper> synthesized.
 
 Synthesizing Unit <gtp_link_reset>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_link_reset.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_link_reset.vhd".
     Found 1-bit register for signal <state>.
     Found 11-bit register for signal <counter>.
     Found 1-bit register for signal <reset_o>.
@@ -525,13 +525,13 @@ Synthesizing Unit <gtp_link_reset>.
 Unit <gtp_link_reset> synthesized.
 
 Synthesizing Unit <gtp_clk_pll>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_clk_pll.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_clk_pll.vhd".
     Summary:
 	no macro.
 Unit <gtp_clk_pll> synthesized.
 
 Synthesizing Unit <gtp>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp.vhd".
         WRAPPER_SIM_GTPRESET_SPEEDUP = 0
         WRAPPER_CLK25_DIVIDER_0 = 10
         WRAPPER_CLK25_DIVIDER_1 = 10
@@ -545,7 +545,7 @@ Synthesizing Unit <gtp>.
 Unit <gtp> synthesized.
 
 Synthesizing Unit <gtp_tile>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\ipcore_dir\gtp_tile.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\ipcore_dir\gtp_tile.vhd".
         TILE_SIM_GTPRESET_SPEEDUP = 0
         TILE_CLK25_DIVIDER_0 = 10
         TILE_CLK25_DIVIDER_1 = 10
@@ -560,71 +560,71 @@ Synthesizing Unit <gtp_tile>.
 Unit <gtp_tile> synthesized.
 
 Synthesizing Unit <link_tracking>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd".
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<63>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<62>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<61>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<60>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<59>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<58>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<57>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<56>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<55>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<54>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<53>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<52>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<51>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<50>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<49>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<48>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<47>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<46>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<45>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<44>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<43>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<42>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<41>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<40>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<39>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<38>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<37>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<36>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<35>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<34>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<33>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<32>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<31>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<30>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<29>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<28>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<27>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<26>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<25>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<24>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<23>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<22>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<21>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<20>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<19>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<18>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<17>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<16>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<15>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<14>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<13>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<12>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<11>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<10>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<9>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<8>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<7>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<6>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<5>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<4>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<3>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<2>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<1>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_tracking.vhd" line 190: Output port <wbus_o<0>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd".
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<63>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<62>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<61>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<60>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<59>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<58>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<57>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<56>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<55>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<54>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<53>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<52>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<51>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<50>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<49>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<48>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<47>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<46>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<45>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<44>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<43>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<42>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<41>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<40>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<39>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<38>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<37>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<36>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<35>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<34>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<33>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<32>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<31>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<30>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<29>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<28>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<27>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<26>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<25>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<24>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<23>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<22>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<21>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<20>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<19>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<18>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<17>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<16>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<15>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<14>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<13>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<12>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<11>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<10>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<9>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<8>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<7>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<6>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<5>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<4>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<3>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<2>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<1>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_tracking.vhd" line 190: Output port <wbus_o<0>> of the instance <registers_core_inst> is unconnected or connected to loadless signal.
 WARNING:Xst:2935 - Signal 'request_read<63>', unconnected in block 'link_tracking', is tied to its initial value (00000000000000000000000000000000).
 WARNING:Xst:2935 - Signal 'request_read<62>', unconnected in block 'link_tracking', is tied to its initial value (00000000000000000000000000000000).
 WARNING:Xst:2935 - Signal 'request_read<61>', unconnected in block 'link_tracking', is tied to its initial value (00000000000000000000000000000000).
@@ -689,7 +689,7 @@ WARNING:Xst:2935 - Signal 'request_read<5>', unconnected in block 'link_tracking
 Unit <link_tracking> synthesized.
 
 Synthesizing Unit <gtp_rx_mux>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_rx_mux.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_rx_mux.vhd".
     Found 1-bit register for signal <regs_en_o>.
     Found 2-bit register for signal <state>.
     Found 2-bit register for signal <selected_core>.
@@ -719,7 +719,7 @@ Synthesizing Unit <gtp_rx_mux>.
 Unit <gtp_rx_mux> synthesized.
 
 Synthesizing Unit <gtp_tx_mux>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\gtp_tx_mux.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\gtp_tx_mux.vhd".
     Found 16-bit register for signal <tx_data_o>.
     Found 1-bit register for signal <vi2c_done_o>.
     Found 1-bit register for signal <regs_done_o>.
@@ -753,7 +753,7 @@ Synthesizing Unit <gtp_tx_mux>.
 Unit <gtp_tx_mux> synthesized.
 
 Synthesizing Unit <vi2c_core>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\vi2c_core.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\vi2c_core.vhd".
     Found 1-bit register for signal <exec>.
     Found 3-bit register for signal <state>.
     Found 8-bit register for signal <chip_byte>.
@@ -790,7 +790,7 @@ Synthesizing Unit <vi2c_core>.
 Unit <vi2c_core> synthesized.
 
 Synthesizing Unit <vi2c_wrapper>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\vi2c_wrapper.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\vi2c_wrapper.vhd".
         clk_freq = 160000000
     Found 1-bit register for signal <exec>.
     Found 1-bit register for signal <enable>.
@@ -823,7 +823,7 @@ Synthesizing Unit <vi2c_wrapper>.
 Unit <vi2c_wrapper> synthesized.
 
 Synthesizing Unit <i2c_master>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_master.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_master.vhd".
 WARNING:Xst:647 - Input <ctrlreg<14:13>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <datareg<15:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <datareg<23:23>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -838,7 +838,7 @@ WARNING:Xst:647 - Input <datareg<31:26>> is never used. This port will be preser
 Unit <i2c_master> synthesized.
 
 Synthesizing Unit <i2c_data>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_data.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_data.vhd".
         M = 1
         N = 12
 WARNING:Xst:647 - Input <selected_iic<31:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -898,7 +898,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <sda_t<0>>. Latches may be genera
 Unit <i2c_data> synthesized.
 
 Synthesizing Unit <i2c_ctrl>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\i2c_ctrl.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\i2c_ctrl.vhd".
 WARNING:Xst:647 - Input <completed> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <reg_in.ff>.
     Found 1-bit register for signal <executestrobe_reg>.
@@ -977,17 +977,18 @@ WARNING:Xst:647 - Input <completed> is never used. This port will be preserved a
 Unit <i2c_ctrl> synthesized.
 
 Synthesizing Unit <tracking_core>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd".
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd" line 58: Output port <full> of the instance <tracking_bx_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd" line 58: Output port <empty> of the instance <tracking_bx_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd" line 108: Output port <full> of the instance <tracking_data_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_core.vhd" line 108: Output port <empty> of the instance <tracking_data_fifo_inst> is unconnected or connected to loadless signal.
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd".
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd" line 58: Output port <full> of the instance <tracking_bx_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd" line 58: Output port <empty> of the instance <tracking_bx_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd" line 108: Output port <full> of the instance <tracking_data_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_core.vhd" line 108: Output port <empty> of the instance <tracking_data_fifo_inst> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <tracking_core> synthesized.
 
 Synthesizing Unit <tracking_decoder>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_decoder.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_decoder.vhd".
+WARNING:Xst:647 - Input <en_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 2-bit register for signal <state>.
     Found 192-bit register for signal <data>.
     Found 8-bit register for signal <data_cnt>.
@@ -996,7 +997,7 @@ Synthesizing Unit <tracking_decoder>.
     Found finite state machine <FSM_7> for signal <state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
-    | Transitions        | 8                                              |
+    | Transitions        | 7                                              |
     | Inputs             | 3                                              |
     | Outputs            | 3                                              |
     | Clock              | vfat2_clk_i (rising_edge)                      |
@@ -1007,7 +1008,7 @@ Synthesizing Unit <tracking_decoder>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 8-bit subtractor for signal <GND_121_o_GND_121_o_sub_7_OUT<7:0>> created at line 69.
+    Found 8-bit subtractor for signal <GND_121_o_GND_121_o_sub_7_OUT<7:0>> created at line 67.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred 393 D-type flip-flop(s).
@@ -1016,7 +1017,7 @@ Synthesizing Unit <tracking_decoder>.
 Unit <tracking_decoder> synthesized.
 
 Synthesizing Unit <tracking_concentrator>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_concentrator.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_concentrator.vhd".
     Found 1-bit register for signal <en_o>.
     Found 2-bit register for signal <state>.
     Found 8-bit register for signal <en>.
@@ -1055,7 +1056,7 @@ INFO:Xst:3019 - HDL ADVISOR - 1536 flip-flops were inferred for signal <data>. Y
 Unit <tracking_concentrator> synthesized.
 
 Synthesizing Unit <tracking_readout>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\tracking_readout.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\tracking_readout.vhd".
     Found 1-bit register for signal <tx_ready_o>.
     Found 2-bit register for signal <state>.
     Found 224-bit register for signal <data>.
@@ -1078,7 +1079,7 @@ Synthesizing Unit <tracking_readout>.
 Unit <tracking_readout> synthesized.
 
 Synthesizing Unit <registers_core>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\registers_core.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\registers_core.vhd".
     Found 128-bit register for signal <wbus_t>.
     Found 3-bit register for signal <state>.
     Found 32-bit register for signal <data_byte>.
@@ -1236,7 +1237,7 @@ Synthesizing Unit <registers_core>.
 Unit <registers_core> synthesized.
 
 Synthesizing Unit <counter>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\counter.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\counter.vhd".
     Found 32-bit register for signal <counter>.
     Found 32-bit adder for signal <counter[31]_GND_126_o_add_0_OUT> created at line 1241.
     Summary:
@@ -1245,7 +1246,7 @@ Synthesizing Unit <counter>.
 Unit <counter> synthesized.
 
 Synthesizing Unit <link_trigger>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\link_trigger.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\link_trigger.vhd".
 WARNING:Xst:647 - Input <rx_kchar_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rx_data_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <vfat2_data_0_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1291,14 +1292,14 @@ WARNING:Xst:647 - Input <rx_error_i> is never used. This port will be preserved 
 Unit <link_trigger> synthesized.
 
 Synthesizing Unit <trigger_sbits>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\trigger_sbits.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\trigger_sbits.vhd".
     Found 1-bit 7-to-1 multiplexer for signal <to_tdc_o> created at line 16.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <trigger_sbits> synthesized.
 
 Synthesizing Unit <t1_delayed>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_delayed.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_delayed.vhd".
 WARNING:Xst:647 - Input <delay_i<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <calpulse_o>.
     Found 2-bit register for signal <state>.
@@ -1324,22 +1325,22 @@ WARNING:Xst:647 - Input <delay_i<31:30>> is never used. This port will be preser
 Unit <t1_delayed> synthesized.
 
 Synthesizing Unit <trigger_handler>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\trigger_handler.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\trigger_handler.vhd".
     Found 1-bit register for signal <lv1a_o>.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_130_o_GND_130_o_MUX_1669_o> created at line 29.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_130_o_GND_130_o_MUX_1667_o> created at line 29.
     Summary:
 	inferred   1 D-type flip-flop(s).
 	inferred   1 Multiplexer(s).
 Unit <trigger_handler> synthesized.
 
 Synthesizing Unit <t1_handler>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_handler.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_handler.vhd".
     Summary:
 	no macro.
 Unit <t1_handler> synthesized.
 
 Synthesizing Unit <clock_bridge_strobes>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\clock_bridge_strobes.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\clock_bridge_strobes.vhd".
     Found 1-bit register for signal <s_en_o>.
     Found 1-bit register for signal <ack>.
     Found 1-bit register for signal <strobe>.
@@ -1348,7 +1349,7 @@ Synthesizing Unit <clock_bridge_strobes>.
 Unit <clock_bridge_strobes> synthesized.
 
 Synthesizing Unit <t1_encoder>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\t1_encoder.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\t1_encoder.vhd".
     Found 1-bit register for signal <state>.
     Found 3-bit register for signal <data>.
     Found 2-bit register for signal <data_cnt>.
@@ -1362,13 +1363,13 @@ Synthesizing Unit <t1_encoder>.
 Unit <t1_encoder> synthesized.
 
 Synthesizing Unit <adc_handler>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\adc_handler.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\adc_handler.vhd".
     Summary:
 	no macro.
 Unit <adc_handler> synthesized.
 
 Synthesizing Unit <uart_rx>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\uart_rx.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\uart_rx.vhd".
     Found 2-bit register for signal <state>.
     Found 15-bit register for signal <timer>.
     Found 3-bit register for signal <cnt>.
@@ -1396,7 +1397,7 @@ Synthesizing Unit <uart_rx>.
 Unit <uart_rx> synthesized.
 
 Synthesizing Unit <adc_switch>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\adc_switch.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\adc_switch.vhd".
     Found 32-bit register for signal <current>.
     Found 32-bit register for signal <voltage_o>.
     Found 32-bit register for signal <current_o>.
@@ -1407,7 +1408,7 @@ Synthesizing Unit <adc_switch>.
 Unit <adc_switch> synthesized.
 
 Synthesizing Unit <reg>.
-    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid\src\registers.vhd".
+    Related source file is "\\psf\home\Documents\PhD\Code\OptoHybrid_v1\src\registers.vhd".
     Found 32-bit register for signal <rbus_o>.
     Found 32-bit register for signal <reg>.
     Summary:
@@ -1459,8 +1460,8 @@ Macro Statistics
 # Comparators                                          : 4
  12-bit comparator equal                               : 2
  8-bit comparator equal                                : 2
-# Multiplexers                                         : 2065
- 1-bit 2-to-1 multiplexer                              : 1969
+# Multiplexers                                         : 2063
+ 1-bit 2-to-1 multiplexer                              : 1967
  1-bit 3-to-1 multiplexer                              : 2
  1-bit 4-to-1 multiplexer                              : 1
  1-bit 7-to-1 multiplexer                              : 1
@@ -1957,8 +1958,8 @@ Macro Statistics
 # Comparators                                          : 4
  12-bit comparator equal                               : 2
  8-bit comparator equal                                : 2
-# Multiplexers                                         : 2037
- 1-bit 2-to-1 multiplexer                              : 1951
+# Multiplexers                                         : 2035
+ 1-bit 2-to-1 multiplexer                              : 1949
  1-bit 3-to-1 multiplexer                              : 2
  1-bit 4-to-1 multiplexer                              : 1
  1-bit 7-to-1 multiplexer                              : 1
@@ -6600,15 +6601,15 @@ Top Level Output File Name         : optohybrid_top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 7140
+# BELS                             : 7131
 #      GND                         : 49
-#      INV                         : 163
+#      INV                         : 171
 #      LUT1                        : 562
-#      LUT2                        : 224
-#      LUT3                        : 576
-#      LUT4                        : 560
-#      LUT5                        : 405
-#      LUT6                        : 2801
+#      LUT2                        : 208
+#      LUT3                        : 575
+#      LUT4                        : 566
+#      LUT5                        : 400
+#      LUT6                        : 2800
 #      MUXCY                       : 626
 #      MUXCY_L                     : 141
 #      MUXF5                       : 2
@@ -6664,16 +6665,16 @@ Selected Device : 6slx150tfgg676-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:            8795  out of  184304     4%  
- Number of Slice LUTs:                 5534  out of  92152     6%  
-    Number used as Logic:              5291  out of  92152     5%  
+ Number of Slice LUTs:                 5525  out of  92152     5%  
+    Number used as Logic:              5282  out of  92152     5%  
     Number used as Memory:              243  out of  21680     1%  
        Number used as SRL:              243
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  10659
-   Number with an unused Flip Flop:    1864  out of  10659    17%  
-   Number with an unused LUT:          5125  out of  10659    48%  
-   Number of fully used LUT-FF pairs:  3670  out of  10659    34%  
+ Number of LUT Flip Flop pairs used:  10650
+   Number with an unused Flip Flop:    1855  out of  10650    17%  
+   Number with an unused LUT:          5125  out of  10650    48%  
+   Number of fully used LUT-FF pairs:  3670  out of  10650    34%  
    Number of unique control sets:       389
 
 IO Utilization: 
@@ -6711,7 +6712,7 @@ gtp_wrapper_inst/gtp_inst/tile0_gtp_i/GTPCLKOUT1_OUT<0>                         
 clock_control_inst/vfat2_clk_o(clock_control_inst/Mmux_vfat2_clk_o11:O)                             | BUFG(*)(link_tracking_1_inst/tracking_core_inst/track_7_inst/data_0)                                           | 5075  |
 link_tracking_1_inst/vi2c_core_inst/chip_select_2                                                   | NONE(link_tracking_1_inst/vi2c_core_inst/vi2c_wrapper_inst/i2c_master_inst/u1/wrbit_selected_iic[0]_DLATCH_2_q)| 4     |
 chipscope_icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL                                          | BUFG                                                                                                           | 464   |
-leds_o_1_OBUF                                                                                       | NONE(chipscope_vio_inst/U0/I_VIO/GEN_SYNC_IN[31].SYNC_IN_CELL/U_FALLING)                                       | 64    |
+leds_o_2_OBUF                                                                                       | NONE(chipscope_vio_inst/U0/I_VIO/GEN_SYNC_IN[31].SYNC_IN_CELL/U_FALLING)                                       | 64    |
 chipscope_icon_inst/CONTROL1<13>(chipscope_icon_inst/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_LCE:O)| NONE(*)(chipscope_ila_inst/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_LDC)                                                 | 1     |
 chipscope_icon_inst/U0/iUPDATE_OUT                                                                  | NONE(chipscope_icon_inst/U0/U_ICON/U_iDATA_CMD)                                                                | 1     |
 ----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+-------+
@@ -6791,7 +6792,7 @@ Delay:               6.869ns (Levels of Logic = 6)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock_control_inst/vfat2_clk_o'
   Clock period: 6.176ns (frequency: 161.927MHz)
-  Total number of paths / destination ports: 57192 / 10371
+  Total number of paths / destination ports: 55723 / 10371
 -------------------------------------------------------------------------
 Delay:               6.176ns (Levels of Logic = 3)
   Source:            link_tracking_1_inst/tracking_core_inst/tracking_concentrator_inst/cnt_0 (FF)
@@ -6909,26 +6910,27 @@ Offset:              3.708ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_control_inst/vfat2_clk_o'
-  Total number of paths / destination ports: 3272 / 3174
+  Total number of paths / destination ports: 1656 / 1614
 -------------------------------------------------------------------------
-Offset:              5.415ns (Levels of Logic = 4)
-  Source:            vfat2_dvalid_i<3> (PAD)
-  Destination:       link_tracking_1_inst/tracking_core_inst/track_7_inst/data_0 (FF)
+Offset:              4.341ns (Levels of Logic = 5)
+  Source:            vfat2_data_13_i<8> (PAD)
+  Destination:       link_tracking_1_inst/tracking_core_inst/track_5_inst/data_6 (FF)
   Destination Clock: clock_control_inst/vfat2_clk_o rising
 
-  Data Path: vfat2_dvalid_i<3> to link_tracking_1_inst/tracking_core_inst/track_7_inst/data_0
+  Data Path: vfat2_data_13_i<8> to link_tracking_1_inst/tracking_core_inst/track_5_inst/data_6
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            61   1.222   1.621  vfat2_dvalid_i_3_IBUF (vfat2_dvalid_i_3_IBUF)
-     begin scope: 'link_tracking_1_inst:vfat2_dvalid_i<1>'
-     begin scope: 'link_tracking_1_inst/tracking_core_inst:vfat2_dvalid_i<1>'
-     begin scope: 'link_tracking_1_inst/tracking_core_inst/track_7_inst:en_i'
-     LUT3:I2->O          192   0.205   2.046  _n0290_inv1 (_n0290_inv)
-     FDE:CE                    0.322          data_0
+     IBUF:I->O            19   1.222   1.436  vfat2_data_13_i_8_IBUF (vfat2_data_13_i_8_IBUF)
+     begin scope: 'link_tracking_1_inst:vfat2_data_5_i'
+     begin scope: 'link_tracking_1_inst/tracking_core_inst:vfat2_data_5_i'
+     begin scope: 'link_tracking_1_inst/tracking_core_inst/track_5_inst:data_i'
+     LUT6:I0->O           24   0.203   1.173  _n0261<102>21 (_n0261<102>2)
+     LUT6:I5->O            1   0.205   0.000  _n0261<183>1 (_n0261<183>)
+     FDE:D                     0.102          data_183
     ----------------------------------------
-    Total                      5.415ns (1.749ns logic, 3.666ns route)
-                                       (32.3% logic, 67.7% route)
+    Total                      4.341ns (1.732ns logic, 2.609ns route)
+                                       (39.9% logic, 60.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'chipscope_icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
@@ -7029,7 +7031,7 @@ Offset:              5.909ns (Levels of Logic = 5)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'fpga_clk_i'
   Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              5.336ns (Levels of Logic = 3)
+Offset:              5.353ns (Levels of Logic = 3)
   Source:            clock_control_inst/cdce_reset_src (FF)
   Destination:       cdce_pri_p_o (PAD)
   Source Clock:      fpga_clk_i rising
@@ -7038,13 +7040,13 @@ Offset:              5.336ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              33   0.447   1.534  cdce_reset_src (cdce_reset_src)
-     LUT5:I2->O            1   0.205   0.579  Mmux_cdce_clk_o11 (cdce_clk_o)
+     FD:C->Q              33   0.447   1.553  cdce_reset_src (cdce_reset_src)
+     LUT5:I1->O            1   0.203   0.579  Mmux_cdce_clk_o11 (cdce_clk_o)
      end scope: 'clock_control_inst:cdce_clk_o'
      OBUFDS:I->O               2.571          cdce_primary_clk_obufds (cdce_pri_p_o)
     ----------------------------------------
-    Total                      5.336ns (3.223ns logic, 2.113ns route)
-                                       (60.4% logic, 39.6% route)
+    Total                      5.353ns (3.221ns logic, 2.132ns route)
+                                       (60.2% logic, 39.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_control_inst/vfat2_clk_o'
@@ -7131,7 +7133,7 @@ chipscope_icon_inst/CONTROL1<13>                          |         |    4.711| 
 chipscope_icon_inst/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL|    8.172|         |         |         |
 chipscope_icon_inst/U0/iUPDATE_OUT                        |    2.583|         |         |         |
 gtp_wrapper_inst/gtp_inst/tile0_gtp_i/GTPCLKOUT1_OUT<0>   |    4.380|         |         |         |
-leds_o_1_OBUF                                             |    1.562|    1.562|         |         |
+leds_o_2_OBUF                                             |    1.562|    1.562|         |         |
 ----------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock chipscope_icon_inst/U0/iUPDATE_OUT
@@ -7171,7 +7173,7 @@ fpga_clk_i                                                |    2.305|         | 
 gtp_wrapper_inst/gtp_inst/tile0_gtp_i/GTPCLKOUT1_OUT<0>   |    6.869|         |         |         |
 ----------------------------------------------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock leds_o_1_OBUF
+Clock to Setup on destination clock leds_o_2_OBUF
 ----------------------------------------------------------+---------+---------+---------+---------+
                                                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
@@ -7190,14 +7192,14 @@ gtp_wrapper_inst/gtp_inst/tile0_gtp_i/GTPCLKOUT1_OUT<0>|    2.020|         |    
 =========================================================================
 
 
-Total REAL time to Xst completion: 59.00 secs
-Total CPU time to Xst completion: 58.95 secs
+Total REAL time to Xst completion: 61.00 secs
+Total CPU time to Xst completion: 60.64 secs
  
 --> 
 
-Total memory usage is 386556 kilobytes
+Total memory usage is 382812 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 4566 (   0 filtered)
+Number of warnings : 4567 (   0 filtered)
 Number of infos    :  450 (   0 filtered)
 

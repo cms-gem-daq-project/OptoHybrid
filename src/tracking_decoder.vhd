@@ -43,7 +43,7 @@ begin
                 
                     en_o <= '0';
                 
-                    if (en_i = '1') then
+                    if (data_i = '1') then
                     
                         data(191) := data_i;
                         
@@ -55,24 +55,16 @@ begin
                 
                 -- Collect data
                 elsif (state = 1) then
-                
-                    if (en_i = '1') then
                     
-                        data(data_cnt) := data_i;
-                        
-                        if (data_cnt = 0) then
-                        
-                            state := 2;
-                            
-                        else
-                        
-                            data_cnt := data_cnt - 1;
-                            
-                        end if;
+                    data(data_cnt) := data_i;
                     
+                    if (data_cnt = 0) then
+                    
+                        state := 2;
+                        
                     else
                     
-                        state := 0;
+                        data_cnt := data_cnt - 1;
                         
                     end if;
                     
