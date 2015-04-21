@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-THOMAS-LENZI-PC::  Tue Apr 21 12:08:09 2015
+THOMAS-LENZI-PC::  Tue Apr 21 12:32:02 2015
 
 par -w -intstyle ise -ol high -mt 4 optohybrid_top_map.ncd optohybrid_top.ncd
 optohybrid_top.pcf 
@@ -33,10 +33,10 @@ Slice Logic Utilization:
     Number used as Latches:                      5
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      5,140 out of  92,152    5%
-    Number used as logic:                    4,613 out of  92,152    5%
+  Number of Slice LUTs:                      5,274 out of  92,152    5%
+    Number used as logic:                    4,609 out of  92,152    5%
       Number using O6 output only:           3,409
-      Number using O5 output only:             554
+      Number using O5 output only:             550
       Number using O5 and O6:                  650
       Number used as ROM:                        0
     Number used as Memory:                     186 out of  21,680    1%
@@ -46,18 +46,18 @@ Slice Logic Utilization:
         Number using O6 output only:           129
         Number using O5 output only:             0
         Number using O5 and O6:                 57
-    Number used exclusively as route-thrus:    341
-      Number with same-slice register load:    315
+    Number used exclusively as route-thrus:    479
+      Number with same-slice register load:    453
       Number with same-slice carry load:        26
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 2,799 out of  23,038   12%
+  Number of occupied Slices:                 2,735 out of  23,038   11%
   Number of MUXCYs used:                       844 out of  46,076    1%
-  Number of LUT Flip Flop pairs used:        9,249
-    Number with an unused Flip Flop:         1,337 out of   9,249   14%
-    Number with an unused LUT:               4,109 out of   9,249   44%
-    Number of fully used LUT-FF pairs:       3,803 out of   9,249   41%
+  Number of LUT Flip Flop pairs used:        9,071
+    Number with an unused Flip Flop:         1,294 out of   9,071   14%
+    Number with an unused LUT:               3,797 out of   9,071   41%
+    Number of fully used LUT-FF pairs:       3,980 out of   9,071   43%
     Number of slice register sites lost
       to control set restrictions:               0 out of 184,304    0%
 
@@ -126,25 +126,22 @@ WARNING:Par:288 - The signal cdce_auxout_i_IBUF has no load.  PAR will not attem
 WARNING:Par:288 - The signal fpga_test_io<0>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal fpga_test_io<2>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal fpga_test_io<5>_IBUF has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[27].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[28].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[22].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[26].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[29].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[24].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[23].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[24].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[21].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[22].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[25].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[30].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[27].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[26].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[28].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/RESET has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[29].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_UPDATE_OUT[63].UPDATE_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
@@ -156,7 +153,10 @@ WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<8> has no load. 
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<9> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<10> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/RESET has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[21].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[30].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
+   this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/GEN_SYNC_OUT[31].SYNC_OUT_CELL/out_temp has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<4> has no load.  PAR will not attempt to route this signal.
@@ -170,29 +170,29 @@ WARNING:Par:288 - The signal chipscope_vio_inst/U0/I_VIO/UPDATE<3> has no load. 
 Starting Multi-threaded Router
 
 
-Phase  1  : 36420 unrouted;      REAL time: 18 secs 
+Phase  1  : 36366 unrouted;      REAL time: 16 secs 
 
-Phase  2  : 30724 unrouted;      REAL time: 25 secs 
+Phase  2  : 30699 unrouted;      REAL time: 24 secs 
 
-Phase  3  : 14960 unrouted;      REAL time: 1 mins 13 secs 
+Phase  3  : 15021 unrouted;      REAL time: 1 mins 2 secs 
 
-Phase  4  : 14963 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 19 secs 
+Phase  4  : 15020 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 8 secs 
 
 Updating file: optohybrid_top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 48 secs 
-Total REAL time to Router completion: 1 mins 48 secs 
-Total CPU time to Router completion (all processors): 2 mins 41 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 32 secs 
+Total REAL time to Router completion: 1 mins 32 secs 
+Total CPU time to Router completion (all processors): 2 mins 27 secs 
 
 Generating "PAR" statistics.
 
@@ -203,13 +203,13 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|           vfat2_clk |  BUFGMUX_X2Y4| No   | 1476 |  0.348     |  1.432      |
+|           vfat2_clk |  BUFGMUX_X2Y4| No   | 1441 |  0.329     |  1.413      |
 +---------------------+--------------+------+------+------------+-------------+
-|             gtp_clk |  BUFGMUX_X2Y2| No   |  838 |  0.397     |  1.483      |
+|             gtp_clk |  BUFGMUX_X2Y2| No   |  846 |  0.397     |  1.483      |
 +---------------------+--------------+------+------+------------+-------------+
-|         cs_icon0<0> |  BUFGMUX_X2Y1| No   |  161 |  0.326     |  1.410      |
+|         cs_icon0<0> |  BUFGMUX_X2Y1| No   |  153 |  0.324     |  1.410      |
 +---------------------+--------------+------+------+------------+-------------+
-|            fpga_clk |  BUFGMUX_X2Y3| No   |   13 |  0.346     |  1.432      |
+|            fpga_clk |  BUFGMUX_X2Y3| No   |   13 |  0.166     |  1.431      |
 +---------------------+--------------+------+------+------------+-------------+
 |gtp_wrapper_inst/gtp |              |      |      |            |             |
 |        _userclk2<1> | BUFGMUX_X2Y10| No   |    5 |  0.010     |  1.297      |
@@ -222,9 +222,9 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |link_tracking_1_inst |              |      |      |            |             |
 |/vi2c_core_inst/chip |              |      |      |            |             |
-|           _select_2 |         Local|      |    5 |  0.569     |  3.069      |
+|           _select_2 |         Local|      |    5 |  0.163     |  3.135      |
 +---------------------+--------------+------+------+------------+-------------+
-|        cs_icon1<13> |         Local|      |    5 |  0.000     |  0.679      |
+|        cs_icon1<13> |         Local|      |    5 |  0.000     |  0.544      |
 +---------------------+--------------+------+------+------------+-------------+
 |gtp_wrapper_inst/gtp |              |      |      |            |             |
 |_refclk_0_ibufds_ML_ |              |      |      |            |             |
@@ -271,7 +271,7 @@ Generating Clock Report
 |          _refclk<2> |         Local|      |    1 |  0.000     |  0.001      |
 +---------------------+--------------+------+------+------------+-------------+
 |chipscope_icon_inst/ |              |      |      |            |             |
-|      U0/iUPDATE_OUT |         Local|      |    1 |  0.000     |  2.292      |
+|      U0/iUPDATE_OUT |         Local|      |    1 |  0.000     |  2.134      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -296,8 +296,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_gtp_clk = PERIOD TIMEGRP "gtp_clk" 6.2 | SETUP       |     0.247ns|     6.003ns|       0|           0
-  5 ns HIGH 50%                             | HOLD        |     0.202ns|            |       0|           0
+  TS_gtp_clk = PERIOD TIMEGRP "gtp_clk" 6.2 | SETUP       |     0.261ns|     5.989ns|       0|           0
+  5 ns HIGH 50%                             | HOLD        |     0.185ns|            |       0|           0
                                             | MINPERIOD   |     0.000ns|     6.250ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_gtp_userclk00 = PERIOD TIMEGRP "gtp_us | MINPERIOD   |     0.000ns|     3.125ns|       0|           0
@@ -306,14 +306,14 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_gtp_userclk01 = PERIOD TIMEGRP "gtp_us | MINPERIOD   |     0.000ns|     3.125ns|       0|           0
   erclk01" 3.125 ns HIGH 50%                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_vfat2_clk = PERIOD TIMEGRP "vfat2_clk" | SETUP       |    13.214ns|    11.786ns|       0|           0
-   25 ns HIGH 50%                           | HOLD        |     0.264ns|            |       0|           0
+  TS_vfat2_clk = PERIOD TIMEGRP "vfat2_clk" | SETUP       |    15.024ns|     9.976ns|       0|           0
+   25 ns HIGH 50%                           | HOLD        |     0.349ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_fpga_clk = PERIOD TIMEGRP "fpga_clk" 2 | SETUP       |    15.638ns|     4.362ns|       0|           0
-  0 ns HIGH 50%                             | HOLD        |     0.489ns|            |       0|           0
+  TS_fpga_clk = PERIOD TIMEGRP "fpga_clk" 2 | SETUP       |    15.977ns|     4.023ns|       0|           0
+  0 ns HIGH 50%                             | HOLD        |     0.459ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_vfat2_clk_ext = PERIOD TIMEGRP "vfat2_ | SETUP       |    23.006ns|     1.994ns|       0|           0
-  clk_ext" 25 ns HIGH 50%                   | HOLD        |     0.407ns|            |       0|           0
+  TS_vfat2_clk_ext = PERIOD TIMEGRP "vfat2_ | SETUP       |    22.728ns|     2.272ns|       0|           0
+  clk_ext" 25 ns HIGH 50%                   | HOLD        |     0.402ns|            |       0|           0
                                             | MINPERIOD   |    21.876ns|     3.124ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_vfat2_clk_fpga = PERIOD TIMEGRP "vfat2 | MINPERIOD   |    21.876ns|     3.124ns|       0|           0
@@ -343,10 +343,10 @@ WARNING:Par:283 - There are 34 loadless signals in this design. This design will
 
 WARNING:Par:284 - There are 3 sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
 
-Total REAL time to PAR completion: 1 mins 54 secs 
-Total CPU time to PAR completion (all processors): 2 mins 46 secs 
+Total REAL time to PAR completion: 1 mins 38 secs 
+Total CPU time to PAR completion (all processors): 2 mins 32 secs 
 
-Peak Memory Usage:  649 MB
+Peak Memory Usage:  658 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
