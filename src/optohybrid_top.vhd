@@ -221,7 +221,7 @@ begin
     reset <= '0';
     
     -- LEDS
-    leds_o <= fpga_pll_locked & '0' & '0' & cdce_pll_locked_i;
+    leds_o <= fpga_pll_locked & '0' & '1' & cdce_pll_locked_i;
     
     --================================--
     -- External signals
@@ -563,7 +563,7 @@ begin
     
     -- Fixed registers : 23 -- read _ firmware version
     
-    request_read(23) <= x"20141126"; 
+    request_read(23) <= x"20150421"; 
     
     -- Reserved : 25 downto 24
     

@@ -1,0 +1,243 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -415 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source Z:/Documents/PhD/Code/OptoHybrid/pa.fromNetlist.tcl
+# create_project -name OH -dir "Z:/Documents/PhD/Code/OptoHybrid/planAhead_run_1" -part xc6slx150tfgg676-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "Z:/Documents/PhD/Code/OptoHybrid/optohybrid_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {Z:/Documents/PhD/Code/OptoHybrid} {ipcore_dir} }
+# add_files [list {ipcore_dir/chipscope_icon.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/chipscope_ila.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/chipscope_vio.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/tracking_bx_fifo.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/tracking_data_fifo.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "Z:/Documents/PhD/Code/OptoHybrid/src/pinout.ucf" [current_fileset -constrset]
+Adding file 'Z:/Documents/PhD/Code/OptoHybrid/src/pinout.ucf' to fileset 'constrs_1'
+# add_files [list {Z:/Documents/PhD/Code/OptoHybrid/src/pinout.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {Z:/Documents/PhD/Code/OptoHybrid/src/timing.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {Z:/Documents/PhD/Code/OptoHybrid/src/gtp.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx150tfgg676-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design optohybrid_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to optohybrid_top.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus data<45 : 0> on block link_trigger is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus status[27 : 0] on block i2c_master is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus status_reg[27 : 0] on block vi2c_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_reg[24 : 0] on block vi2c_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_reg[31]_data_reg[31]_mux_49_OUT[24
+   : 0] on block vi2c_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus data_7[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_6[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_5[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_4[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_3[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_2[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_1[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus data_0[191 : 0] on block
+   tracking_concentrator is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus cnt[2]_data[7][191]_wide_mux_21_OUT[191
+   : 0] on block tracking_concentrator is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus track_data<191 : 0> on block
+   tracking_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus GND_125_o_GND_125_o_mux_567_OUT<110 : 5>
+   on block registers_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus request_read_i<3 : 1> on block
+   link_tracking is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gtp_clk_out<4 : 2> on block gtp_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_error<3 : 1> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_kchar<7 : 2> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rx_data<63 : 16> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus adc_voltage_value<29 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus adc_current_value<29 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus tx_kchar<7 : 2> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tx_data<63 : 16> on block optohybrid_top
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus request_write<31 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus request_tri<46 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus request_read<31 : 0> on block
+   optohybrid_top is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file optohybrid_top.edif ...
+ngc2edif: Total memory usage is 106304 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/optohybrid_top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/optohybrid_top_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tracking_bx_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to tracking_bx_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file tracking_bx_fifo.edif ...
+ngc2edif: Total memory usage is 75456 kilobytes
+
+Reading core file 'Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_bx_fifo.ngc' for (cell view 'tracking_bx_fifo', library 'optohybrid_top_lib', file 'optohybrid_top.ngc')
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/tracking_bx_fifo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/tracking_bx_fifo_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tracking_data_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to tracking_data_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file tracking_data_fifo.edif ...
+ngc2edif: Total memory usage is 75392 kilobytes
+
+Reading core file 'Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_data_fifo.ngc' for (cell view 'tracking_data_fifo', library 'optohybrid_top_lib', file 'optohybrid_top.ngc')
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/tracking_data_fifo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/tracking_data_fifo_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_vio.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 76480 kilobytes
+
+Reading core file 'Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_vio.ngc' for (cell view 'chipscope_vio', library 'optohybrid_top_lib', file 'optohybrid_top.ngc')
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_vio_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_vio_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_ila.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila.edif ...
+ngc2edif: Total memory usage is 77504 kilobytes
+
+Reading core file 'Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_ila.ngc' for (cell view 'chipscope_ila', library 'optohybrid_top_lib', file 'optohybrid_top.ngc')
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_ila_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_ila_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon.ngc ...
+WARNING:NetListWriters:298 - No output is written to chipscope_icon.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon.edif ...
+ngc2edif: Total memory usage is 74944 kilobytes
+
+Reading core file 'Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_icon.ngc' for (cell view 'chipscope_icon', library 'optohybrid_top_lib', file 'optohybrid_top.ngc')
+Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_icon_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/OH.data/cache/chipscope_icon_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lxt/xc6slx150t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lxt/xc6slx150t/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lxt/xc6slx150t/fgg676/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[4] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[3] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[2] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[1] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[0] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_icon.ncf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_icon.ncf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_ila.ncf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_ila.ncf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_vio.ncf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/chipscope_vio.ncf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_bx_fifo.ncf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_bx_fifo.ncf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_data_fifo.ncf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/ipcore_dir/tracking_data_fifo.ncf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/pinout.ucf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/pinout.ucf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/timing.ucf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/timing.ucf]
+Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/gtp.ucf]
+Finished Parsing UCF File [Z:/Documents/PhD/Code/OptoHybrid/src/gtp.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  IOBUF => IOBUF (OBUFT, IBUF): 6 instances
+
+Phase 0 | Netlist Checksum: 8c60c5d9
+link_design: Time (s): elapsed = 00:00:26 . Memory (MB): peak = 650.438 ; gain = 248.680
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Feb 19 09:43:58 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

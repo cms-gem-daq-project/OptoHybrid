@@ -1,8 +1,8 @@
 INTSTYLE=impact
 INFILE=Z:\Documents\PhD\Code\OptoHybrid\impact.xsl
 OUTFILE=Z:\Documents\PhD\Code\OptoHybrid\impact.xsl
-FAMILY=Multiple
-PART=Multiple
+FAMILY=None
+PART=None
 WORKINGDIR=Z:\Documents\PhD\Code\OptoHybrid
 LICENSE=iMPACT
 USER_INFO=iMPACT

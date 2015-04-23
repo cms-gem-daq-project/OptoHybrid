@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=Z:\Documents\PhD\Code\OptoHybrid\optohybrid_top.ncd
-OUTFILE=Z:\Documents\PhD\Code\OptoHybrid\optohybrid_top.bit
+INFILE=Z:\Documents\PhD\Code\OptoHybrid_v1\optohybrid_top.ncd
+OUTFILE=Z:\Documents\PhD\Code\OptoHybrid_v1\optohybrid_top.bit
 FAMILY=Spartan6
 PART=xc6slx150t-3fgg676
-WORKINGDIR=Z:\Documents\PhD\Code\OptoHybrid
+WORKINGDIR=Z:\Documents\PhD\Code\OptoHybrid_v1
 LICENSE=ISE
 USER_INFO=174110357_174110358_210552545_242
